@@ -6,7 +6,7 @@ import (
 	// "math"
 )
 
-func main(){
+func main() {
 
 	var currYear int = 2022
 
@@ -16,7 +16,7 @@ func main(){
 		fmt.Println("Other")
 	}
 
-	if (currYear > 2020) {
+	if currYear > 2020 {
 		fmt.Println("New Era!")
 	} else {
 		fmt.Println("Other")
@@ -25,8 +25,7 @@ func main(){
 	var array [4]int = [4]int{1, 2, 3, 4}
 	// var array [2][3]int = [2][3]int{{5, 6, 7}, 1, 2, 3}
 
-
-	for i:=0; i < 4; i++ {
+	for i := 0; i < 4; i++ {
 		fmt.Println(array[i])
 	}
 
@@ -35,9 +34,9 @@ func main(){
 	fmt.Println(array)
 
 	var dict map[int]string = map[int]string{
-		2 : "dua",
-		3 : "dua",
-		4 : "dua",
+		2: "dua",
+		3: "dua",
+		4: "dua",
 	}
 
 	value, exist := dict[3]
